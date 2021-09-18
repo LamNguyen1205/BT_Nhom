@@ -10,3 +10,16 @@ C:\Users\lephu\source\repos\LibraryManagementSystem\LibraryManagementSystem\obj\
 C:\Users\lephu\source\repos\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
 C:\Users\lephu\source\repos\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.LMS.resources
 C:\Users\lephu\source\repos\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Role.resources
+F:\DoAn\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe.config
+F:\DoAn\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe
+F:\DoAn\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.pdb
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.LMS.resources
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Login.resources
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Plan.resources
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Properties.Resources.resources
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Role.resources
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.GenerateResource.cache
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
+F:\DoAn\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb

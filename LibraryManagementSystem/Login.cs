@@ -13,7 +13,7 @@ namespace LibraryManagementSystem
 {
     public partial class Login : Form
     {
-        SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=LmsDB;Integrated Security=True");
+      //  SqlConnection con = new SqlConnection("Data Source=DESKTOP-9JTMP8E\\SQLEXPRESS;Initial Catalog=LmsDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         public Login()
         {
             InitializeComponent();
@@ -26,7 +26,8 @@ namespace LibraryManagementSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlDataAdapter sda = new SqlDataAdapter("Select * From Profile_Master Where Pro_User_Id ='" + textBox1.Text + "' and Pro_Password='" +textBox2.Text + "' ",con);
+            Connection con = new Connection();
+            SqlDataAdapter sda = new SqlDataAdapter("Select * From Profile_Master Where Pro_User_Id ='" + textBox1.Text + "' and Pro_Password='" +textBox2.Text + "' ",con.ActiveCon());
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows.Count == 1)
@@ -34,7 +35,7 @@ namespace LibraryManagementSystem
                 LMS obj = new LMS();
                 obj.Show();
                 this.Hide();
-            }
+            }  
             else
             {
                 MessageBox.Show("Invalid Username Or Password..!","Aleart",MessageBoxButtons.OK,MessageBoxIcon.Error);
